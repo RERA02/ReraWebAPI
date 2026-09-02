@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "name": "Dev Master Database",
+    "type": "sqlserver",
+    "host": "",
+    "port": 443,
+    "database": "DevMasterDatabase",
+    "username": "********",
+    "password": "12345",
+    "connectionString": ""
+  }
+]

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GISCaptureImageFolder\**" />
+    <Content Remove="GISCaptureImageFolder\**" />
+    <EmbeddedResource Remove="GISCaptureImageFolder\**" />
+    <None Remove="GISCaptureImageFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReraCore\ReraCore.csproj" />
+    <ProjectReference Include="..\ReraModel\ReraModel.csproj" />
+    <ProjectReference Include="..\ReraRepo\ReraRepo.csproj" />
+  </ItemGroup>
+
+</Project>

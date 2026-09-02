@@ -1,0 +1,18 @@
+[
+  {
+    "id": "d53c9b8a-e9fe-42a8-aaca-fc1a3133206e",
+    "username": "",
+    "passwordHash": "",
+    "role": "user",
+    "isActive": true,
+    "createdAt": "2026-06-26T06:19:36.5885619Z"
+  },
+  {
+    "id": "f543538d-bbe6-40c4-876d-4f5260a07ccc",
+    "username": "developeradmin",
+    "passwordHash": "zrta4tAtkAP5gU\u002BnEO\u002B1Fw==:j4R2coBZJLcEu\u002BmRxb5ZGNzLX/jsYS8DHQ00A\u002BKU3bI=",
+    "role": "admin",
+    "isActive": true,
+    "createdAt": "2026-06-26T06:19:36.5899266Z"
+  }
+]

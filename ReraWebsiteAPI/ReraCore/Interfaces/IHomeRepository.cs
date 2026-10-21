@@ -44,7 +44,7 @@ namespace ReraCore.Interfaces
         Task<DataTable> Get_ViewReplyResponse(string ComplaintNumber);
 
         Task<DataTable> GetWeb_TBL_Rejoinder(Web_TBL_RejoinderSearchModel model);
-        Task<DataTable> GetComplaintDetailsWebsite(ComplaintDetailsModel model);
+        Task<DataTable> GetComplaintDetailsWebsite(ComplaintdetailsSearchModel model);
 
         Task<DataTable> GetProjectIdWiseEndPointsLocation(int? ProjectID);
 

@@ -651,12 +651,12 @@ namespace ReraModel.HomeModel
 
     public class ComplaintdetailsSearchModel
     {
-        public string? respondent_name { get; set; }
         public string? complaint_status { get; set; }
+        public int? ComplaintTypeId { get; set; }
         public string? compalaint_no { get; set; }
+        public string? respondent_name { get; set; }
         public string? complainant { get; set; }
-
-
+        public string? actionType { get; set; }
 
     }
 
@@ -747,7 +747,6 @@ namespace ReraModel.HomeModel
         public string? complainant { get; set; }
         public string? respondent_name { get; set; }
         public int? ComplaintTypeId { get; set; }
-        public string? actionType { get; set; }
     }
 
     public class SearchProjectEndPointsModel

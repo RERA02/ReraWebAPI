@@ -1343,7 +1343,7 @@ namespace ReraWebPortal.Controllers
         }
         [ApiExplorerSettings(IgnoreApi = true)]
         [HttpPost("GetComplaintDetailsWebsite")]
-        public async Task<ApiResult<DataTable>> GetComplaintDetailsWebsite([FromBody] ComplaintDetailsModel body)
+        public async Task<ApiResult<DataTable>> GetComplaintDetailsWebsite([FromBody] ComplaintdetailsSearchModel body)
         {
 
             var result = new ApiResult<DataTable>();
